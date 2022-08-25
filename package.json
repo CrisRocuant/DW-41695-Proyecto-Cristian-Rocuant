@@ -1,0 +1,21 @@
+{
+  "name": "example-npm-init",
+  "version": "1.0.0",
+  "description": "esto es mi primer Npm init.",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass --include-path scss style/style-scss.scss style/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "example"
+  ],
+  "author": "Cristian Rocuant",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
