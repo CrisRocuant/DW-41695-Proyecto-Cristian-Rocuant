@@ -1,4 +1,4 @@
-@import"./variables/vars"; 
+@import"./variables/vars";
 @import"./layout/img-Productos"; 
 @import"./layout/Footer";
 
@@ -30,19 +30,19 @@ body{
 h1,
 h2,
 .font-weight-bold {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 h3,
 h4,
 .font-weight-semi-bold {
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 h5,
 h6,
 .font-weight-medium {
-    font-weight: 500 !important;
+    font-weight: 500;
 }
 
 .btn {
@@ -147,7 +147,7 @@ h6,
     height: 26px;
     border-radius: 100%;
     border: none;
-    outline: none !important;
+    outline: none;
     padding: 18px 20px 20px 28px;
     background: #FFFFFF;
 }
@@ -500,13 +500,13 @@ a:hover {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
     background-color: #495056;
-    outline: none !important;
-    border: none !important;
+    outline: none;
+    border: none;
      box-shadow: none;
 }
 
 .form-content textarea {
-    position: static !important;
+    position: static ;
     width: 100%;
     padding: 8px 20px;
     border-radius: 6px;
@@ -531,8 +531,8 @@ a:hover {
 }
 
 .mv-up{
-    margin-top: -9px !important;
-    margin-bottom: 8px !important;
+    margin-top: -9px ;
+    margin-bottom: 8px;
 }
 
 .invalid-feedback{
@@ -810,13 +810,13 @@ a:hover {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
     background-color: #495056;
-    outline: none !important;
-    border: none !important;
+    outline: none;
+    border: none;
      box-shadow: none;
 }
 
 .form-content textarea {
-    position: static !important;
+    position: static;
     width: 100%;
     padding: 8px 20px;
     border-radius: 6px;
@@ -841,8 +841,8 @@ a:hover {
 }
 
 .mv-up{
-    margin-top: -9px !important;
-    margin-bottom: 8px !important;
+    margin-top: -9px;
+    margin-bottom: 8px;
 }
 
 .invalid-feedback{
