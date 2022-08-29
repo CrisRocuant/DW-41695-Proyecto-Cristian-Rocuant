@@ -813,3 +813,7 @@ a:hover {
   position: absolute;
   height: 100%;
   width: 100%; }
+
+.bg-primary-nwe {
+  background-color: #E88F2A;
+  border-radius: 5px; }
