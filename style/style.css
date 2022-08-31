@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*------------------Productos------------------------------*/
 /*-----footer------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
@@ -601,6 +602,10 @@ a:hover {
 
 .section-products #product-4 .part-1::before {
   background: url("../IMG/SHAMPOO-4.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-5 .part-1::before {
+  background: url("../IMG/SHAMPOO-5.jpg") no-repeat center;
   background-size: cover; }
 
 .section-products .single-product .part-1 .discount,

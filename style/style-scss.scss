@@ -625,7 +625,10 @@ a:hover {
     background: url("../IMG/SHAMPOO-4.jpg") no-repeat center;
     background-size: cover;
 }
-
+.section-products #product-5 .part-1::before {
+    background: url("../IMG/SHAMPOO-5.jpg") no-repeat center;
+    background-size: cover;
+}
 .section-products .single-product .part-1 .discount,
 .section-products .single-product .part-1 .new {
     position: absolute;
