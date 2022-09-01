@@ -1,6 +1,38 @@
+@import"./variables/variables";
 @import"./variables/vars";
 @import"./layout/img-Productos"; 
 @import"./layout/Footer";
+
+
+
+/*--------Variable------*/
+
+
+.bordered-rounded{
+    background-color: #2acc80;
+    @if $enable-rounded-borders == true{
+        border-radius: 5px;
+    }
+}
+
+@for $i from 5 through 10{
+    .col-#{$i} {
+        height: 50px;
+        background-color: lighten(black, $i * 10);
+        width: 10% + $i;
+    }
+}
+/*--------color Box------*/
+@each $red, $color in $redes {
+    .Box-#{$red} {
+   
+        border-radius: 5px;
+    background-color: $color;
+    }
+    
+}
+
+
 
 
 /*-------stylo copiar y pegar-------*/
@@ -11,6 +43,7 @@ body{
     background-image: url("../IMG/fondo\ copia.jpg");
     opacity: 0,2;
     font-family: "Roboto";
+    height: $Alto;
 
     
 }
@@ -57,6 +90,7 @@ h6,
 
 .border-inner {
     position: relative;
+    border-radius: 5px;
 }
 
 .border-inner * {
@@ -499,7 +533,7 @@ a:hover {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    background-color: #495056;
+    background-color: #564949;
     outline: none;
     border: none;
      box-shadow: none;
@@ -812,9 +846,9 @@ a:hover {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    background-color: #495056;
+    background-color: #E88F2A;
     outline: none;
-    border: none;
+    border: 0px;
      box-shadow: none;
 }
 
@@ -886,4 +920,3 @@ a:hover {
     background-color: #E88F2A;
     border-radius: 5px;
   }
-
