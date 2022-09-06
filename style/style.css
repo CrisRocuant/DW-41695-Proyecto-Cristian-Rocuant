@@ -160,10 +160,14 @@
   background-color: #0077b5; }
 
 /*-------stylo copiar y pegar-------*/
+.card-mryork {
+  max-width: 10%;
+  max-height: 10%; }
+
 body {
   background-size: 10%;
   background-image: url("../IMG/fondo copia.jpg");
-  opacity: 0,2;
+  opacity: 0,5;
   font-family: "Roboto";
   height: 100vh; }
 
@@ -407,6 +411,7 @@ h6,
 .testimonial-carousel .owl-item.center .testimonial-item {
   opacity: 1; }
 
+/*--------revisar- en el contacto no pilla todo el cuadrado -------*/
 .bg-img {
   background: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url(../IMG/bg.jpg) center center no-repeat;
   background-size: cover; }
