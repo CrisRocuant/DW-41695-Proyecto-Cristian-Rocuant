@@ -38,10 +38,15 @@
 /*-------stylo copiar y pegar-------*/
 
 
+.card-mryork{
+    max-width: 10%;
+    max-height: 10%;
+}
+
 body{
     background-size: 10%;
     background-image: url("../IMG/fondo\ copia.jpg");
-    opacity: 0,2;
+    opacity: 0,5;
     font-family: "Roboto";
     height: $Alto;
 
