@@ -161,8 +161,9 @@
 
 /*-------stylo copiar y pegar-------*/
 .card-mryork {
-  max-width: 10%;
-  max-height: 10%; }
+  max-width: 20%;
+  max-height: 20%;
+  background-size: 10%; }
 
 body {
   background-size: 10%;
